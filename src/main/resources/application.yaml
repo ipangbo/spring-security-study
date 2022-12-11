@@ -1,0 +1,5 @@
+application:
+  jwt:
+    secretKey: securesecuresecuresecuresecuresecuresecuresecuresecuresecuresecure
+    tokenPrefix: "Bearer "
+    tokenExpirationAfterDays: 10

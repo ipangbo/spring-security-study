@@ -67,8 +67,6 @@ public class ApplicationSecurityConfig {
                 .anyRequest()
                 .authenticated()
 
-
-
                 .and()
                 .authenticationProvider(daoAuthenticationProvider());
 
